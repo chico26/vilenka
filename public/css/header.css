@@ -1,0 +1,79 @@
+html {
+    height:100%;
+}
+
+body{
+    min-height:100%;
+    margin:0 auto;
+}
+
+#wrapper{
+	height: 90%;
+    min-height: 100%;
+    margin:0 auto;
+}
+
+#header{
+    width:100%;
+    height:45px;
+    margin:0 auto;
+    border: none !important;
+}
+
+#login_wrapper{
+    height:45px;
+    float:right;
+    margin:0;
+}
+
+.add_form_fieldset {
+	width: 400px;
+	margin: 15px auto;
+	border: solid 1px;
+	padding:25px;
+}
+
+.tree_list{
+	margin-left: 16px;
+}
+
+/**************table pijama********/
+.pijama{
+	margin: 0 auto;
+}
+.pijama tr th{
+	vertical-align: middle;
+	padding: 5px;
+	font-size: .9em;
+}
+.pijama tr td{
+	vertical-align: middle;
+	padding: 2px 10px;
+	font-size: .9em;
+}
+.gray{
+	background: #ccc;
+	color: #fff;
+}
+.white{
+	background: #fff;
+	color: #000;
+}
+/***************buttons*****************/
+.btn_edit, .btn_trash{
+	width: 25px;
+	height: 25px;
+}
+.btn_add .ui-button-text, #login_button{
+	font-size: .8em;
+}
+#login_button,.btn_add{
+	margin: 2px;
+}
+/***************login*****************/
+#login{
+	width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: 0 0 6px 0 #333;
+}

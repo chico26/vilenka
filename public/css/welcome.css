@@ -1,0 +1,50 @@
+/* 
+    Document   : index
+    Created on : Nov 4, 2011, 3:52:43 PM
+    Author     : serge
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+#dynamic{
+    width:100%;
+    min-height: 600px;
+}
+#content_title{
+    font-size: 1.8em;
+    width:96%;
+    margin: 1em 2%;
+    padding: 4px;
+}
+#logo_wrapper{
+    width:25%;
+    float:left;
+    text-align: center;
+    padding: 2% 0;
+}
+#logo{
+    height:515px;
+}
+#content{
+    width:70%;
+    padding: 2.5%;
+    float:left;
+    text-align: justify;
+}
+#info{
+    
+}
+#slider_wrapper{
+    margin-top: 30px;
+    float:left;
+}
+#slider{
+    width: 700px;
+    height: 300px;
+}

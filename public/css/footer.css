@@ -1,0 +1,14 @@
+/* 
+    Document   : footer
+    Created on : Nov 8, 2011, 9:12:11 PM
+    Author     : serge
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#footer {
+    width: 100%;
+    height: 50px;
+    background: url('/images/logo.png') no-repeat left bottom;
+}
+

@@ -1,0 +1,106 @@
+#toolbar {
+	
+}
+
+#toolbar a {
+	float:left;
+	max-width: 180px;
+	max-height: 24px;
+	font-size:.7em;
+	margin:4px 4px 0 4px;
+}
+
+#current_location {
+	margin: 10px 4px;
+}
+
+#current_location a {
+	text-decoration:none;
+}
+
+.item_node {
+	float:left;
+	width:128px;
+	height:150px;
+}
+
+.item_display {
+	
+}
+
+.item_display .item_options {
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.item_display .item_options a {
+	max-width: 16px;
+	max-height: 16px;
+}
+
+.item_display img {
+	width: 64px;
+	margin:8px 32px;
+}
+
+.item_description {
+	padding:2px;
+	font-size: .85em;
+	text-align: center;
+	height: 30px;
+	word-wrap: break-word;
+}
+
+.item_options {
+	height: 20px;
+	text-align:center;
+}
+
+.item_options a {
+	max-width: 16px;
+	max-height: 16px;
+}
+
+.item_option .ui-button-text {
+	font-size:8px;
+}
+
+/******************************************/
+
+.form_element {
+	margin: 8px 1px;
+}
+.form_element_label {
+	width: 30%;
+	margin:4px 2% 0 5%;
+	float:left;
+	font-size: 12px;
+}
+
+.text_element input, .password_element input, .textarea_element textarea, .select_element select, .date_element input, .file_element input {
+	width: 55%;
+	margin:0 0 0 5px;
+	padding:6px;
+	float:left;
+	background:white;
+	color:black;
+	font-size: 12px;
+}
+
+.file_element input {
+	width: 40%;
+}
+
+.select_element select {
+	width:56%;
+	padding:6px;
+}
+
+.checkbox_element input {
+	float:left;
+}
+
+.checkbox_element .form_element_label {
+	width: 50px;
+}

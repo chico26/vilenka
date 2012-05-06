@@ -1,0 +1,76 @@
+/* 
+    Document   : menu
+    Created on : Nov 10, 2011, 5:05:36 PM
+    Author     : serge
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#menu_wrapper{
+    float: left;
+    height: 45px;
+}
+
+#menu {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    margin-left: 12px;
+}
+
+#menu li {
+    display: inline;
+    /*min-width:100px;*/
+    float: left;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#menu li a {
+    margin-top: 7px;
+    display: block;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: solid 1px transparent !important;
+    font-size:20px !important;
+    font-weight: bolder !important;
+    vertical-align: middle;
+}
+#login_wrapper{
+	margin: 10px;
+}
+#welcome_message{
+	width: 800px;
+	height: 300px;
+	margin: 0 auto;
+	background: url('/images/logearse.png') no-repeat;
+}
+/*li.potato-menu-item {
+    width:140px;
+    font-size:12px;
+    display: inline;
+    float: left;
+    height: 100%;
+}
+li.potato-menu-item a {
+    padding:5px 10px 5px 12px;
+    text-decoration: none;
+}
+li.potato-menu-hover {
+    
+}
+li.potato-menu-has-vertical > a {
+    background: transparent url(/images/icons/fammini/arrow_down.gif) right no-repeat;
+}
+li.potato-menu-has-holizontal > a {
+    background: transparent url(/images/icons/fammini/arrow_right.gif) right no-repeat;
+}
+li.potato-menu-item ul {
+    border-top:1px solid #444;
+    border-left:1px solid #444;
+}*/
